@@ -1,0 +1,71 @@
+# .project metadata for Fluentd
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "fluentd"
+name: "Fluentd"
+description: "Fluentd is an open source data collector for unified logging layer"
+type: "project"
+project_lead: "sonots" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#fluent-bit"
+    primary: true
+
+maturity_log:
+  - phase: "graduated"
+    date: "2016-11-08T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/69" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/fluent/fluentd"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://www.fluentd.org/"
+
+artwork: "https://landscape.cncf.io/logos/fluentd.svg"
+
+adopters:
+  path: "https://github.com/fluent/fluentd/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "fluent/fluentd"
+
+social:
+  twitter: "https://twitter.com/fluentd"
+
+security:
+  policy:
+    path: "https://github.com/fluent/fluentd/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/fluent/fluentd/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/fluent/fluentd/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/fluent/fluentd/blob/master/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/fluent/fluentd/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/fluent/fluentd/blob/master/README.md"
+
+landscape:
+  category: "Observability and Analysis"
+  subcategory: "Observability"
+
+# CLOMonitor Score: 80/100
+# Documentation: 96 | License: 60 | Best Practices: 83 | Security: 73
