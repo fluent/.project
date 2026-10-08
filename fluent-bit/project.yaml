@@ -12,8 +12,8 @@ description: "Fast and Lightweight Logs, Metrics and Traces processor for Linux,
 type: "project"
 # TODO: Set project lead GitHub handle
 # project_lead: "github-handle"
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
-  - name: "#fluent-bit"
+slack_channels:
+  - name: "#fluentd"
     primary: true
 
 maturity_log:
