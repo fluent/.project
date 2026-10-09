@@ -1,8 +1,6 @@
 # .project metadata for Fluentd
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "fluentd"
 name: "Fluentd"
@@ -10,7 +8,7 @@ description: "Fluentd is an open source data collector for unified logging layer
 type: "project"
 project_lead: "sonots" # TODO: AUTO-DETECTED — please verify
 slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
-  - name: "#fluent-bit"
+  - name: "#fluentd"
     primary: true
 
 maturity_log:
@@ -31,9 +29,9 @@ adopters:
   path: "https://github.com/fluent/fluentd/blob/master/ADOPTERS.md"
 
 
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "fluent/fluentd"
+package_managers:
+  docker: "fluent/fluentd"
+  ghcr: "ghcr.io/fluent/fluentd"
 
 social:
   twitter: "https://twitter.com/fluentd"
