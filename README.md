@@ -23,7 +23,8 @@ landscape entry — so each owns a directory with its own metadata, and
 
 | Project | Directory |
 |---------|-----------|
-| Fluentd | `fluentd/` |
+| Fluentd | [`fluentd/`](./fluentd/) |
+| Fluent Bit | [`fluent-bit/`](./fluent-bit) |
 
 Add or remove a project by editing `org.yaml` and its directory together;
 validation fails if the two disagree. See the
