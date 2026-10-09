@@ -1,0 +1,64 @@
+# .project metadata for Fluent Bit
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set the TOC issue for the maturity_log entry
+# TODO: Verify the repository list and package_managers
+
+schema_version: "1.0.0"
+slug: "fluent-bit"
+name: "Fluent Bit"
+description: "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows"
+type: "project"
+project_lead: "edsiper"
+slack_channels:
+  - name: "#fluent-bit"
+    primary: true
+
+maturity_log:
+  # Fluent Bit graduated with Fluentd, as a sub-project under its umbrella
+  # (see https://github.com/fluent/fluent-bit/blob/master/GOVERNANCE.md).
+  - phase: "graduated"
+    date: "2019-04-11T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/XXX" # TODO: Set TOC issue URL
+
+repositories:
+  - url: "https://github.com/fluent/fluent-bit"
+    primary: true
+  - url: "https://github.com/fluent/fluent-bit-docs"
+
+website: "https://fluentbit.io"
+
+artwork: "https://raw.githubusercontent.com/cncf/artwork/main/projects/fluentd/fluentbit/icon/fluentbit-icon-color.svg"
+
+adopters:
+  path: "https://github.com/fluent/fluent-bit/#-production-usage"
+
+# Images are built once for ghcr.io and promoted to the other registries.
+package_managers:
+  docker: "fluent/fluent-bit"
+  ghcr: "ghcr.io/fluent/fluent-bit"
+
+security:
+  policy:
+    path: "https://github.com/fluent/fluent-bit/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/fluent/fluent-bit/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/fluent/fluent-bit/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/fluent/fluent-bit/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/fluent/fluent-bit/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/fluent/fluent-bit/blob/master/README.md"
