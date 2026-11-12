@@ -50,7 +50,6 @@ maintainers:
         managed: false
         members:
           - leonardo-albertovich
-          - fujimotos
           - nokute78
           - pwhelan
           - koleini
