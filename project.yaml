@@ -20,6 +20,8 @@ repositories: # TODO: AUTO-DETECTED primary — please verify
   - url: "https://github.com/fluent/fluentd"
     primary: true
     # tags: [core, sig-apps] # Optional
+  - url: "https://github.com/fluent/fluent-bit"
+  - url: "https://github.com/fluent/fluent-bit-docs"
 
 website: "https://www.fluentd.org/"
 
