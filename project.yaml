@@ -12,11 +12,14 @@ slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
     primary: true
 
 maturity_log:
-  - phase: "graduated"
+  - phase: "incubating"
     date: "2016-11-08T00:00:00Z"
-    issue: "https://github.com/cncf/toc/pull/69" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/toc/pull/20"
+  - phase: "graduated"
+    date: "2019-04-11T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/69"
 
-repositories: # TODO: AUTO-DETECTED primary — please verify
+repositories:
   - url: "https://github.com/fluent/fluentd"
     primary: true
     # tags: [core, sig-apps] # Optional
@@ -25,15 +28,19 @@ repositories: # TODO: AUTO-DETECTED primary — please verify
 
 website: "https://www.fluentd.org/"
 
-artwork: "https://landscape.cncf.io/logos/fluentd.svg"
+artwork: "https://raw.githubusercontent.com/cncf/artwork/main/projects/fluentd/icon/color/fluentd-icon-color.svg"
 
 adopters:
   path: "https://github.com/fluent/fluentd/blob/master/ADOPTERS.md"
 
 
 package_managers:
-  docker: "fluent/fluentd"
-  ghcr: "ghcr.io/fluent/fluentd"
+  docker:
+    - "fluent/fluentd"
+    - "fluent/fluent-bit"
+  ghcr:
+    - "ghcr.io/fluent/fluentd"
+    - "ghcr.io/fluent/fluent-bit"
 
 social:
   twitter: "https://twitter.com/fluentd"
@@ -54,8 +61,8 @@ legal:
   license:
     path: "https://github.com/fluent/fluentd/blob/master/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
