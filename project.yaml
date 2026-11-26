@@ -28,7 +28,7 @@ repositories:
 
 website: "https://www.fluentd.org/"
 
-artwork: "https://raw.githubusercontent.com/cncf/artwork/main/projects/fluentd/icon/color/fluentd-icon-color.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/fluentd"
 
 adopters:
   path: "https://github.com/fluent/fluentd/blob/master/ADOPTERS.md"
